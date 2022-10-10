@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Cadastro de Produto </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <geral>
+      Cadastro de Produto
+      <tema>
+        Tema:
+          <cor>
+            <input type="radio" name="tema">Normal
+          </cor>
+          <input type="radio" name="tema" checked>Escuro
+      </tema>
+    </geral>
+    <br>
+    <sku>
+      SKU
+        <input type="text" name="SKU" maxlength="3" required>
+    </sku>
+    <nome>
+      Nome
+        <textarea input type="text" cols="144" rows="1" name="nome"> </textarea><br>
+    </nome>
+    Descrição<br>
+      <textarea input type="text" cols="175" rows="3" name="descricao"> </textarea><br>
+    <Conjunto>
+      Estilo<br>
+        <select>
+            <optgroup label="Gaseificada">
+                <option>Refrigerante</option>
+            </optgroup>
+            <optgroup label="Suco">
+                <option>Integral</option>
+                <option>Caixa</option>
+                <option>Natural</option>
+            </optgroup>
+            <option selected >Escolha o estilo</option>
+        </select> <br>
+      Preço<br>
+        <input type="text" name="preco" ><br> <!--Colocar "R$" antes da caixa-->
+    </Conjunto>
+    <Conjunto>
+      Sabor<br>
+        <select>
+          <option >Uva</option>
+          <option >Laranja</option>
+          <option >Limão</option>
+          </select> <br>
+      Comissão<br>
+        <input type="text" name="comissao" ><br> <!--Colocar "%" depois da caixa-->
+    </Conjunto>
+    <Conjunto>
+      Teor alcoólico<br>
+        <input type="text" name="teorAlcoolico" ><br> <!--Colocar "%" depois da caixa-->
+      Estoque<br>
+        <input type="text" name="estoque" ><br>
+    </Conjunto>
+    Origem<br>
+      <input type="radio" name="origem" /> Nacional
+      <input type="radio" name="origem" /> Internacional
+      <br><br><br><br>
+    <input type="button" value="Salvar"/>
+  </body>
+</html>

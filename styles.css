@@ -1,0 +1,41 @@
+geral {
+    float: left;
+    padding: 50px 0px 20px;
+    color: rgb(42, 91, 165);
+    font-size: 50px;
+}
+
+sku {
+    float: left;
+    width: min-content;
+    margin-right: 50px;
+}
+
+nome {
+    float: left;
+    width: min-content;
+}
+tema {
+    float: right;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 680px;
+}
+
+cor {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+Conjunto {
+    float: left;
+    width: 356px;
+}
+
+body {
+    padding: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+}
